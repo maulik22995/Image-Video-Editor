@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@android:color/transparent"
+        tools:context=".PreviewVideoActivity">
+
+        <!--<ImageView
+            android:id="@+id/ivImage"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />-->
+
+        <TextureView
+            android:id="@+id/videoSurface"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"/>
+
+        <com.imagevideoeditor.photoeditor.PhotoEditorView
+            android:id="@+id/ivImage"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+
+        <ImageView
+            android:id="@+id/imgClose"
+            android:layout_width="50dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="15dp"
+            android:layout_marginTop="25dp"
+            android:background="@color/black_trasp"
+            android:padding="8dp"
+            android:src="@drawable/ic_close"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+
+        <ImageView
+            android:id="@+id/imgUndo"
+            android:layout_width="50dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="25dp"
+            android:background="@color/black_trasp"
+            android:padding="8dp"
+            android:src="@drawable/ic_undo"
+            app:layout_constraintEnd_toStartOf="@id/imgText"
+            app:layout_constraintTop_toTopOf="parent" />
+
+
+        <ImageView
+            android:id="@+id/imgText"
+            android:layout_width="50dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="25dp"
+            android:background="@color/black_trasp"
+            android:padding="8dp"
+            android:src="@drawable/ic_text"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <ImageView
+            android:id="@+id/imgDraw"
+            android:layout_width="50dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:background="@color/black_trasp"
+            android:padding="8dp"
+            android:src="@drawable/ic_brush"
+            app:layout_constraintStart_toStartOf="@id/imgText"
+            app:layout_constraintTop_toBottomOf="@id/imgText" />
+
+        <ImageView
+            android:id="@+id/imgSticker"
+            android:layout_width="50dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:background="@color/black_trasp"
+            android:padding="8dp"
+            android:src="@drawable/ic_sticker"
+            app:layout_constraintStart_toStartOf="@id/imgDraw"
+            app:layout_constraintTop_toBottomOf="@id/imgDraw" />
+
+        <ImageView
+            android:id="@+id/imgDelete"
+            android:layout_width="50dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:background="@color/black_trasp"
+            android:padding="8dp"
+            android:src="@drawable/ic_close"
+            android:visibility="gone"
+            app:layout_constraintStart_toStartOf="@id/imgSticker"
+            app:layout_constraintTop_toBottomOf="@id/imgSticker" />
+
+
+        <ImageView
+            android:id="@+id/imgDone"
+            android:layout_width="50dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="30dp"
+            android:background="@color/black_trasp"
+            android:padding="8dp"
+            android:src="@drawable/ic_save"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent" />
+
+
+    </android.support.constraint.ConstraintLayout>
+
+</layout>

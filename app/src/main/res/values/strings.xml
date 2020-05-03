@@ -1,0 +1,729 @@
+<resources>
+
+    <string name="google_play_services_key">AIzaSyC0ZErQW6nRWO6wMEH-AI5j_MWVJHKk8sM</string>
+    <!--<string name="google_play_services_key">AIzaSyCBeFn_daUCtOwmi9FMAM5pknrItFIplp0</string>&lt;!&ndash;Client's&ndash;&gt;-->
+    <!--<string name="google_play_services_key">AIzaSyAf7L51iHuUR5cgDNhOGDTxZLCoaPpZipo</string>&lt;!&ndash;Barber direct's&ndash;&gt;-->
+
+    <string name="app_name">Sticker Demo</string>
+    <string name="hint_email">Email</string>
+    <string name="hint_bio">Bio</string>
+    <string name="hint_password">Password</string>
+    <string name="login">Login</string>
+    <string name="forget_pass">Forgot Password?</string>
+    <string name="create_account">Create an Account</string>
+    <string name="enter_email_err">Please enter Email.</string>
+    <string name="pass_err">Please enter Password.</string>
+    <string name="email_err">Invalid email.</string>
+    <string name="pass_6_digit_validation">Password must be at least 6 characters.</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="requested">Requested</string>
+    <string name="accepted">Accepted</string>
+    <string name="ordered">Ordered</string>
+
+    <string name="completed">Completed</string>
+    <string name="my_account">My Account</string>
+    <string name="my_orders">My Orders</string>
+    <string name="all_appointment">All Appointment\n Activity</string>
+    <string name="my_fav">My Favourite</string>
+    <string name="my_favs">My Favourites</string>
+    <string name="my_notification">Notifications</string>
+    <string name="search_barbers">Search Barbers</string>
+    <string name="search_barber">Search Barber</string>
+    <string name="search">Search</string>
+    <string name="forget_pass_header">Forgot Password</string>
+    <!--<string name="instruction_forgot">Enter your email below to receive your \n password reset instructions</string>-->
+    <string name="instruction_forgot">Enter a phone number that can be used to \nverify your identify with a text message</string>
+    <string name="submit">Submit</string>
+    <string name="signup">Sign Up</string>
+    <string name="customer">Customer</string>
+    <string name="barber">Barber</string>
+    <string name="add_photo">Add Photo</string>
+    <string name="hint_shopname">Shop Name</string>
+    <string name="hint_referename">Reference Name</string>
+    <string name="hint_referenumber">Reference Mobile Number</string>
+    <string name="hint_firstname">First Name</string>
+    <string name="hint_lastname">Last Name</string>
+    <string name="hint_code">Country code</string>
+    <string name="hint_phonenumber">Mobile No.</string>
+    <string name="text_how_know">How did you hear about us?</string>
+    <string name="text_services_for">Who do you provide services for?</string>
+    <string name="text_accept_payments">Accepted Payments</string>
+    <string name="hint_cnfpassword">Confirm Password</string>
+    <string name="text_terms_condition">By tapping on \"Sign up\", you agree to the Terms and Condition</string>
+    <string name="text_already_account">Already have an account?</string>
+    <string name="terms_condition">Terms and Condition</string>
+    <string name="chooseOption">Choose From</string>
+    <string name="camera_open">Take Photo</string>
+    <string name="gallery_open">Choose from Library</string>
+    <string name="app_not_fount">Application not found</string>
+    <string name="no_available">Not Available</string>
+    <string name="deny_cam_permission">Linebully will use your camera to capture the profile image.</string>
+    <string name="deny_storage_permission">Linebully will use your photo library to take the profile picture.</string>
+    <string name="thank_you">Thank You!</string>
+    <string name="notify_admin">You will be notified once the admin \n  approves your registration request.</string>
+    <string name="go_to_home">Go to Home</string>
+    <string name="enter_otp">Enter One Time Password</string>
+    <string name="text_instrucution_otp">One time password has been send to your \n registered mobile number, please enter the same here to sign up</string>
+    <string name="text_instrucution_otp_forgot">One time password has been send to your \n registered mobile number, please enter the same here</string>
+    <string name="text_instrucution_otp_edit">One time password has been sent to your \n updated mobile number, please enter the same here</string>
+    <string name="text_instrucution_newpass">Set New Password here.</string>
+    <string name="hint_otp">\u25CF</string>
+    <string name="text_otp_not_recieve">Didn\'t receive OTP? Resend OTP</string>
+    <string name="resend_otp">Resend OTP</string>
+    <string name="submit_otp">Sign Up Now!</string>
+    <string name="hint_address">Address</string>
+
+    <string name="fill_all">Please fill all fields.</string>
+    <string name="fill_firstname">Please enter First Name. </string>
+    <string name="fill_lastname">Please enter Last Name. </string>
+    <string name="fill_email">Please enter Email.</string>
+    <string name="fill_password">Please enter password.</string>
+    <string name="fill_cnfpassword">Please enter Confirm Password.</string>
+    <string name="fill_oldpassword">Please enter Existing Password.</string>
+    <string name="fill_newpassword">Please enter New Password.</string>
+    <string name="fill_shopname">Please enter Shop Name.</string>
+    <string name="fill_fullname">Please enter Full Name.</string>
+    <string name="fill_countrycode">Please enter Country Code.</string>
+    <string name="fill_phonenumber">Please enter Mobile No.</string>
+    <string name="invalid_mobile">Invalid Mobile No.</string>
+    <string name="fill_refName">Please enter reference name.</string>
+    <string name="fill_refNumber">Please enter refference number.</string>
+    <string name="fill_address">Please enter Address.</string>
+    <string name="fill_how_u_heard">Please choose an option.</string>
+    <string name="fill_paymentMode">Please select payment method.</string>
+    <string name="error_passmismatch">Password and confirm password is not match!</string>
+    <string name="agree_terms_condition">Please agree to the Terms and condition to complete the sign up.</string>
+    <!--<string name="select_profilepic">Please select profile picture.</string>-->
+    <string name="select_profilepic">Please upload the profile picture.</string>
+    <string name="otp_validation">Please enter five digit OTP.</string>
+    <string name="photos_and_videos">Photos and Videos</string>
+    <string name="my_services">My  Services</string>
+    <string name="add_services">Add New Service</string>
+    <string name="edit_services">Edit Service</string>
+    <string name="hint_servicename">Service Name</string>
+    <string name="hint_serviceprice">Price</string>
+    <string name="my_orderSchedule">Order Schedule</string>
+    <string name="sch_appointment">Scheduled Appointment</string>
+    <string name="order_request">Order Request</string>
+    <string name="add_appointment">Add \nAppointment</string>
+    <string name="my_working_schedule">Working\nSchedule</string>
+    <string name="my_bussiones_hours">My Business \n Hours</string>
+    <string name="title_my_buss">My Business Hours</string>
+    <string name="photo">Photo</string>
+    <string name="video">Video</string>
+    <string name="add">Add</string>
+    <string name="permission_msg">Please go to setting and give permission to fetch location</string>
+    <string name="setting">Setting</string>
+    <string name="cancle">Cancle</string>
+    <string name="country_name">Country name</string>
+    <string name="choose_video">Choose Video</string>
+    <string name="take_photo">Take Photo</string>
+    <string name="take_Video">Take Video</string>
+    <string name="choose_from_gallery">Choose from Gallery</string>
+    <string name="choose_image">Choose Image</string>
+    <string name="take_video">Take Video</string>
+    <string name="cancel">Cancel</string>
+    <string name="validation_msg_video_60seconds">You can\'t upload video more then 60 seconds.</string>
+    <string name="msg_permission_setting_camera_storage">Linebully requires to access camera service so you can upload best pictures, Turn on camera and storage permission from setting.</string>
+    <string name="open_settings">OPEN SETTINGS</string>
+
+    <string name="early_notification_header">Early Notification</string>
+    <string name="instruction_early_notification">Early Estimated Today\'s Time Notification</string>
+    <string name="_10_00_am">10:00 AM</string>
+    <string name="delay_notification">Delay Notification</string>
+    <string name="early_notification">Early Notification</string>
+    <string name="edit_working_hours">Edit Working Hours</string>
+    <string name="Delay_notification_header">Delay Notification</string>
+    <string name="instruction_delay_time_notification">Delay Estimated Today\'s Time Notification</string>
+    <string name="select_time">Select Time</string>
+    <string name="my_working_schedule_toolbar">My Working Schedule</string>
+    <string name="daily_working_hour">Daily Working Hours</string>
+    <string name="daily_working_schedule">Daily Working Schedule</string>
+    <string name="_01_march_2018">01 March 2018</string>
+    <string name="opening_hour">Opening Time</string>
+    <string name="closing_time">Closing Time</string>
+    <string name="day">Monday</string>
+    <string name="break_hours">Break Hours</string>
+    <string name="start_time">Start Time</string>
+    <string name="end_time">End Time</string>
+
+    <string name="rejected">Rejected</string>
+    <string name="missed">Missed</string>
+    <string name="invitations">Invitations</string>
+    <string name="cancelled">Cancelled</string>
+    <string name="placed_date">Placed Date</string>
+    <string name="accept">Accept</string>
+    <string name="reject">Reject</string>
+    <string name="working_time">Working Time</string>
+    <string name="break_time">Break Time</string>
+    <string name="order_schedule">Orders Schedule</string>
+    <string name="request_order">Request Your Order</string>
+    <string name="select_a_service">Select a Service</string>
+    <string name="order_status_text">Order Status</string>
+    <string name="order_date">Order Date</string>
+
+    <string name="ToolbarText_edit_profile">Edit Profile</string>
+    <string name="edit_profile_full_name">Full Name</string>
+    <string name="edit_profile_country_code">Country Code</string>
+    <string name="editprofile_hint_mobile_number">Mobile Number</string>
+    <string name="hint_existing_password">Existing Password</string>
+    <string name="hint_new_password">New Password</string>
+    <string name="lable_rate_your_experience">Rate your experience in this Service</string>
+    <string name="tv_price">Price</string>
+    <string name="price_lbl">Price :</string>
+    <string name="tv_value">Value</string>
+    <string name="tv_quality">Quality</string>
+    <string name="tv_friendliness">Friendliness</string>
+    <string name="tv_cleanliness">Cleanliness</string>
+    <string name="lable_use_current_location">Use Current Location</string>
+    <string name="tv_lable_distance">Distance</string>
+    <string name="tv_lable_miles">(Miles)</string>
+    <string name="miles_lbl">(Miles) :</string>
+    <string name="tv_miles">0 Miles - 30 Miles</string>
+    <string name="tv_or">OR</string>
+    <string name="hint_search_by_city_or_zip_code">Search by city or Zip code</string>
+    <string name="hint_search_by_barber_name_or_shop_name">Search by barber name or shop name</string>
+    <string name="tv_lable_filter_by">Filter by</string>
+    <string name="tv_Price_19">$19</string>
+    <string name="tv_lableprice_range">Price Range</string>
+    <string name="btn_text_search">Search</string>
+    <string name="tv_jeck_callis">Razed Hometown Barber</string>
+    <string name="tv_address">4765 Hesarly vincent Drive CleaverLand,OH 44125</string>
+    <string name="tv_130_reviews">130 reviews</string>
+    <string name="tab_requested">Requested</string>
+    <string name="tab_accepted">Accepted</string>
+    <string name="tab_completed">Completed</string>
+    <string name="tv_cancle">Cancle</string>
+    <string name="tv_confirm">Confirm</string>
+    <string name="tv_running_late_for">Running late for</string>
+    <string name="tv_15_minutes">15 minutes</string>
+    <string name="sorting">Sorting</string>
+    <string name="apply">Apply</string>
+    <string name="tv_dummy_barbername">Sweeney Todd Barber Shop</string>
+    <string name="tv_dummy_serviceName">Scissor Cut</string>
+    <string name="tv_dummyDate">24 October 2018</string>
+    <string name="btn_text_submit_your_order">Submit Your Order</string>
+    <string name="btn_text_cancel_order">Cancel Order</string>
+    <string name="btn_text_preview_order">Preview Order</string>
+    <string name="tv_reviews">Reviews</string>
+    <string name="tv_dammy_day">2 days ago</string>
+    <string name="tv_call">Call</string>
+    <string name="tv_map">Map</string>
+    <string name="btn_text_book_now">Book Now</string>
+    <string name="tv_complete">Complete</string>
+    <string name="tv_mis">Mis</string>
+    <string name="tv_estimated_time">Estimated time</string>
+    <string name="tv_choose_an_option">Choose an option</string>
+    <!--<string name="msg_camera_storage_setting">To use this feature, Turn on camera and storage permission from setting.</string>-->
+    <string name="msg_camera_storage_setting">Linebully requires to access camera service so you can upload best pictures, Turn on camera and storage permission from setting.</string>
+    <string name="settings">Settings</string>
+    <string name="msg_permission_rationale">Linebully requires to access camera service so you can upload best pictures, Turn on camera and storage permission from setting.</string>
+    <string name="ok">Ok</string>
+
+
+    <!--logout dialog-->
+    <string name="validation_msg_valid_address">Your address is not valid. Please select it from dropdown</string>
+    <string name="logout_msg">Are you sure you want to logout?</string>
+    <string name="logout">Log out</string>
+    <string name="cancel_btn">Cancel</string>
+    <string name="yes_btn">Yes</string>
+    <string name="no_btn">No</string>
+
+
+    <!--add service-->
+    <string name="validation_servicename">Please enter Service Name.</string>
+    <string name="validation_serviceprice">Please define price.</string>
+    <string name="validation_estimatedtime">Please select Estimated time.</string>
+    <string name="no_service_msg">No Service Added</string>
+    <string name="no_data_msg">No Data Found!</string>
+    <string name="no_review_available">No review available!</string>
+    <string name="msg_no_media">No media available!</string>
+    <string name="msg_no_favourite">No favourite available!</string>
+    <string name="delete_service_msg">Are you sure you want to delete this service? </string>
+    <string name="otp_resend">OTP has been sent to your registered Mobile Number</string>
+
+
+    <string name="waiting_admin_approval">Waiting for Admin Approval.</string>
+    <string name="account_expiration_date">Account Expiration Date -</string>
+    <string name="edit_profile">Edit Profile</string>
+
+
+    <!--Search-->
+    <string name="search_by_name">Search by Barber Name or Shop</string>
+    <string name="search_by_city">Search by city, state or zip</string>
+    <string name="apply_filter">Apply Filter</string>
+    <string name="filter_by">Filter by</string>
+    <string name="earliest_availability">Earliest Availability</string>
+    <string name="rating_lbl">Rating :</string>
+    <string name="highest_to_lowest">Highest to Lowest</string>
+    <string name="lowest_to_highest">Lowest to Highest</string>
+    <string name="high_to_low">High to Low</string>
+    <string name="low_to_high">Low to High</string>
+    <string name="results">Results</string>
+    <string name="avalability">Avalability</string>
+    <string name="change_password">Change Password</string>
+    <string name="dialog_msg_delete_media">Are you sure you want to delete this media?</string>
+    <string name="holiday">Holiday</string>
+
+
+    <!--edit daily hours-->
+    <string name="fill_opening">Please select Opening time.</string>
+    <string name="fill_closing">Please select Closing time.</string>
+    <string name="validat_same_OC">Opening time and Closing time should not be same.</string>
+    <string name="validat_same_BSBE">Break Start time and Break End time should not be same.</string>
+    <string name="fill_Bstart">Please select Break Start time.</string>
+    <string name="fill_BEnd">Please select Break End time.</string>
+
+
+    <!--Search barber-->
+    <string name="fill_name">Please Enter Barber Name/Shop Name or City/Zipcode .</string>
+    <string name="fill_City">Please Enter City/Zipcode .</string>
+
+
+    <string name="unfav_msg">Are you sure you want to remove </string>
+
+    <!--My order-->
+    <string name="tv_cancelled">Cancelled</string>
+    <string name="tv_upcomming">Upcoming Appt</string>
+    <string name="tv_Completed">Completed</string>
+    <string name="tv_Missed">Missed</string>
+    <string name="msg_no_orders">No orders available!</string>
+    <string name="msg_alert_order_accept">Are you sure you want to accept this order?</string>
+    <string name="msg_alert_order_reject">Are you sure you want to reject this order?</string>
+    <string name="msg_alert_order_cancel">Are you sure you want to cancel this order?</string>
+
+
+    <string name="validation_msg_price0">Price must be a more then 0</string>
+
+    <string name="cancelled_by_me">Cancelled by me</string>
+    <string name="cancelled_by_barber">Cancelled by barber</string>
+    <string name="write_review_lbl">Write a Review</string>
+    <string name="vali_select_sevice">Please select service</string>
+    <string name="title_selet_date">Pick a Date and Time</string>
+    <string name="ttl_order_Summary">Order Summary</string>
+    <string name="ttl_notification">Notifications</string>
+    <string name="ttl_walkin_req">Walk In Order Request</string>
+    <string name="tv_msg_for_early_delay">Send your current status to the upcomming customer.</string>
+    <string name="no_barber_found">No barbers match your search criteria</string>
+    <string name="max_video_upload_limit">Maximum media upload limit is 10.</string>
+
+
+    <string name="business_hours">Business Hours</string>
+    <string name="business_calander">Business Calendar</string>
+    <string name="off_day">"Off/ Closed</string>
+    <string name="male">"Male</string>
+    <string name="female">"Female</string>
+    <string name="both">"Both</string>
+    <string name="i_m_child_friendly">I\'m Child Friendly</string>
+    <string name="gender">Gender</string>
+
+
+    <string-array name="photo_editor_emoji">
+
+        <!-- Smiles -->
+        <item>u+1f604</item>
+        <item>u+1f603</item>
+        <item>u+1f600</item>
+        <item>u+1f60a</item>
+        <item>u+263a</item>
+        <item>u+1f609</item>
+        <item>u+1f60d</item>
+        <item>u+1f618</item>
+        <item>u+1f61a</item>
+        <item>u+1f617</item>
+        <item>u+1f619</item>
+        <item>u+1f61c</item>
+        <item>u+1f61d</item>
+        <item>u+1f61b</item>
+        <item>u+1f633</item>
+        <item>u+1f601</item>
+        <item>u+1f614</item>
+        <item>u+1f60c</item>
+        <item>u+1f612</item>
+        <item>u+1f61e</item>
+        <item>u+1f623</item>
+        <item>u+1f622</item>
+        <item>u+1f602</item>
+        <item>u+1f62d</item>
+        <item>u+1f62a</item>
+        <item>u+1f625</item>
+        <item>u+1f630</item>
+        <item>u+1f605</item>
+        <item>u+1f613</item>
+        <item>u+1f629</item>
+        <item>u+1f62b</item>
+        <item>u+1f628</item>
+        <item>u+1f631</item>
+        <item>u+1f620</item>
+        <item>u+1f621</item>
+        <item>u+1f624</item>
+
+        <!--People -->
+        <item>u+1f616</item>
+        <item>u+1f606</item>
+        <item>u+1f60b</item>
+        <item>u+1f637</item>
+        <item>u+1f60e</item>
+        <item>u+1f634</item>
+        <item>u+1f635</item>
+        <item>u+1f632</item>
+        <item>u+1f61f</item>
+        <item>u+1f626</item>
+        <item>u+1f627</item>
+        <item>u+1f608</item>
+        <item>u+1f47f</item>
+        <item>u+1f62e</item>
+        <item>u+1f62c</item>
+        <item>u+1f610</item>
+        <item>u+1f615</item>
+        <item>u+1f62f</item>
+        <item>u+1f636</item>
+        <item>u+1f607</item>
+        <item>u+1f60f</item>
+        <item>u+1f611</item>
+        <item>u+1f472</item>
+        <item>u+1f473</item>
+        <item>u+1f46e</item>
+        <item>u+1f477</item>
+        <item>u+1f482</item>
+        <item>u+1f476</item>
+        <item>u+1f466</item>
+        <item>u+1f467</item>
+        <item>u+1f468</item>
+        <item>u+1f469</item>
+        <item>u+1f474</item>
+        <item>u+1f475</item>
+        <item>u+1f471</item>
+        <item>u+1f47c</item>
+        <item>u+1f478</item>
+        <item>u+1f63a</item>
+        <item>u+1f638</item>
+        <item>u+1f63b</item>
+        <item>u+1f63d</item>
+        <item>u+1f63c</item>
+        <item>u+1f640</item>
+        <item>u+1f63f</item>
+        <item>u+1f639</item>
+        <item>u+1f63e</item>
+        <item>u+1f479</item>
+        <item>u+1f47a</item>
+        <item>u+1f648</item>
+        <item>u+1f649</item>
+        <item>u+1f64a</item>
+        <item>u+1f480</item>
+        <item>u+1f47d</item>
+        <item>u+1f4a9</item>
+        <item>u+1f525</item>
+        <item>u+2728</item>
+        <item>u+1f31f</item>
+        <item>u+1f4ab</item>
+        <item>u+1f4a5</item>
+        <item>u+1f4a2</item>
+        <item>u+1f4a6</item>
+        <item>u+1f4a7</item>
+        <item>u+1f4a4</item>
+        <item>u+1f4a8</item>
+        <item>u+1f442</item>
+        <item>u+1f440</item>
+        <item>u+1f443</item>
+        <item>u+1f445</item>
+        <item>u+1f444</item>
+        <item>u+1f44d</item>
+        <item>u+1f44e</item>
+        <item>u+1f44c</item>
+        <item>u+1f44a</item>
+        <item>u+270a</item>
+        <item>u+270c</item>
+        <item>u+1f44b</item>
+        <item>u+270b</item>
+        <item>u+1f450</item>
+        <item>u+1f446</item>
+        <item>u+1f447</item>
+        <item>u+1f449</item>
+        <item>u+1f448</item>
+        <item>u+1f64c</item>
+        <item>u+1f64f</item>
+        <item>u+261d</item>
+        <item>u+1f44f</item>
+        <item>u+1f4aa</item>
+        <item>u+1f6b6</item>
+        <item>u+1f3c3</item>
+        <item>u+1f483</item>
+        <item>u+1f46b</item>
+        <item>u+1f46a</item>
+        <item>u+1f46c</item>
+        <item>u+1f46d</item>
+        <item>u+1f48f</item>
+        <item>u+1f491</item>
+        <item>u+1f46f</item>
+        <item>u+1f646</item>
+        <item>u+1f645</item>
+        <item>u+1f481</item>
+        <item>u+1f64b</item>
+        <item>u+1f486</item>
+        <item>u+1f487</item>
+        <item>u+1f485</item>
+        <item>u+1f470</item>
+        <item>u+1f64e</item>
+        <item>u+1f64d</item>
+        <item>u+1f647</item>
+        <item>u+1f3a9</item>
+        <item>u+1f451</item>
+        <item>u+1f452</item>
+        <item>u+1f45f</item>
+        <item>u+1f45e</item>
+        <item>u+1f461</item>
+        <item>u+1f460</item>
+        <item>u+1f462</item>
+        <item>u+1f455</item>
+        <item>u+1f454</item>
+        <item>u+1f45a</item>
+        <item>u+1f457</item>
+        <item>u+1f3bd</item>
+        <item>u+1f456</item>
+        <item>u+1f458</item>
+        <item>u+1f459</item>
+        <item>u+1f4bc</item>
+        <item>u+1f45c</item>
+        <item>u+1f45d</item>
+        <item>u+1f45b</item>
+        <item>u+1f453</item>
+        <item>u+1f380</item>
+        <item>u+1f302</item>
+        <item>u+1f484</item>
+        <item>u+1f49b</item>
+        <item>u+1f499</item>
+        <item>u+1f49c</item>
+        <item>u+1f49a</item>
+        <item>u+2764</item>
+        <item>u+1f494</item>
+        <item>u+1f497</item>
+        <item>u+1f493</item>
+        <item>u+1f495</item>
+        <item>u+1f496</item>
+        <item>u+1f49e</item>
+        <item>u+1f498</item>
+        <item>u+1f48c</item>
+        <item>u+1f48b</item>
+        <item>u+1f48d</item>
+        <item>u+1f48e</item>
+        <item>u+1f464</item>
+        <item>u+1f465</item>
+        <item>u+1f4ac</item>
+        <item>u+1f463</item>
+        <item>u+1f4ad</item>
+
+        <!--  Nature-->
+        <item>u+1f436</item>
+        <item>u+1f43a</item>
+        <item>u+1f431</item>
+        <item>u+1f42d</item>
+        <item>u+1f439</item>
+        <item>u+1f430</item>
+        <item>u+1f438</item>
+        <item>u+1f42f</item>
+        <item>u+1f428</item>
+        <item>u+1f43b</item>
+        <item>u+1f437</item>
+        <item>u+1f43d</item>
+        <item>u+1f42e</item>
+        <item>u+1f417</item>
+        <item>u+1f435</item>
+        <item>u+1f412</item>
+        <item>u+1f434</item>
+        <item>u+1f411</item>
+        <item>u+1f418</item>
+        <item>u+1f43c</item>
+        <item>u+1f427</item>
+        <item>u+1f426</item>
+        <item>u+1f424</item>
+        <item>u+1f425</item>
+        <item>u+1f423</item>
+        <item>u+1f414</item>
+        <item>u+1f40d</item>
+        <item>u+1f422</item>
+        <item>u+1f41b</item>
+        <item>u+1f41d</item>
+        <item>u+1f41c</item>
+        <item>u+1f41e</item>
+        <item>u+1f40c</item>
+        <item>u+1f419</item>
+        <item>u+1f41a</item>
+        <item>u+1f420</item>
+        <item>u+1f41f</item>
+        <item>u+1f42c</item>
+        <item>u+1f433</item>
+        <item>u+1f40b</item>
+        <item>u+1f404</item>
+        <item>u+1f40f</item>
+        <item>u+1f400</item>
+        <item>u+1f403</item>
+        <item>u+1f405</item>
+        <item>u+1f407</item>
+        <item>u+1f409</item>
+        <item>u+1f40e</item>
+        <item>u+1f410</item>
+        <item>u+1f413</item>
+        <item>u+1f415</item>
+        <item>u+1f416</item>
+        <item>u+1f401</item>
+        <item>u+1f402</item>
+        <item>u+1f432</item>
+        <item>u+1f421</item>
+        <item>u+1f40a</item>
+        <item>u+1f42b</item>
+        <item>u+1f42a</item>
+        <item>u+1f406</item>
+        <item>u+1f408</item>
+        <item>u+1f429</item>
+        <item>u+1f43e</item>
+        <item>u+1f490</item>
+        <item>u+1f338</item>
+        <item>u+1f337</item>
+        <item>u+1f340</item>
+        <item>u+1f339</item>
+        <item>u+1f33b</item>
+        <item>u+1f33a</item>
+        <item>u+1f341</item>
+        <item>u+1f343</item>
+        <item>u+1f342</item>
+        <item>u+1f33f</item>
+        <item>u+1f33e</item>
+        <item>u+1f344</item>
+        <item>u+1f335</item>
+        <item>u+1f334</item>
+        <item>u+1f332</item>
+        <item>u+1f333</item>
+        <item>u+1f330</item>
+        <item>u+1f331</item>
+        <item>u+1f33c</item>
+        <item>u+1f310</item>
+        <item>u+1f31e</item>
+        <item>u+1f31d</item>
+        <item>u+1f31a</item>
+        <item>u+1f311</item>
+        <item>u+1f312</item>
+        <item>u+1f313</item>
+        <item>u+1f314</item>
+        <item>u+1f315</item>
+        <item>u+1f316</item>
+        <item>u+1f317</item>
+        <item>u+1f318</item>
+        <item>u+1f31c</item>
+        <item>u+1f31b</item>
+        <item>u+1f319</item>
+        <item>u+1f30d</item>
+        <item>u+1f30e</item>
+        <item>u+1f30f</item>
+        <item>u+1f30b</item>
+        <item>u+1f30c</item>
+        <item>u+1f320</item>
+        <item>u+2b50</item>
+        <item>u+2600</item>
+        <item>u+26c5</item>
+        <item>u+2601</item>
+        <item>u+26a1</item>
+        <item>u+2614</item>
+        <item>u+2744</item>
+        <item>u+26c4</item>
+        <item>u+1f300</item>
+        <item>u+1f301</item>
+        <item>u+1f308</item>
+        <item>u+1f30a</item>
+
+        <!--Places-->
+        <item>u+1f3e0</item>
+        <item>u+1f3e1</item>
+        <item>u+1f3eb</item>
+        <item>u+1f3e2</item>
+        <item>u+1f3e3</item>
+        <item>u+1f3e5</item>
+        <item>u+1f3e6</item>
+        <item>u+1f3ea</item>
+        <item>u+1f3e9</item>
+        <item>u+1f3e8</item>
+        <item>u+1f492</item>
+        <item>u+26ea</item>
+        <item>u+1f3ec</item>
+        <item>u+1f3e4</item>
+        <item>u+1f307</item>
+        <item>u+1f306</item>
+        <item>u+1f3ef</item>
+        <item>u+1f3f0</item>
+        <item>u+26fa</item>
+        <item>u+1f3ed</item>
+        <item>u+1f5fc</item>
+        <item>u+1f5fe</item>
+        <item>u+1f5fb</item>
+        <item>u+1f304</item>
+        <item>u+1f305</item>
+        <item>u+1f303</item>
+        <item>u+1f5fd</item>
+        <item>u+1f309</item>
+        <item>u+1f3a0</item>
+        <item>u+1f3a1</item>
+        <item>u+26f2</item>
+        <item>u+1f3a2</item>
+        <item>u+1f6a2</item>
+        <item>u+26f5</item>
+        <item>u+1f6a4</item>
+        <item>u+1f6a3</item>
+        <item>u+2693</item>
+        <item>u+1f680</item>
+        <item>u+2708</item>
+        <item>u+1f4ba</item>
+        <item>u+1f681</item>
+        <item>u+1f682</item>
+        <item>u+1f68a</item>
+        <item>u+1f689</item>
+        <item>u+1f69e</item>
+        <item>u+1f686</item>
+        <item>u+1f684</item>
+        <item>u+1f685</item>
+        <item>u+1f688</item>
+        <item>u+1f687</item>
+        <item>u+1f69d</item>
+        <item>u+1f68b</item>
+        <item>u+1f683</item>
+        <item>u+1f68e</item>
+        <item>u+1f68c</item>
+        <item>u+1f68d</item>
+        <item>u+1f699</item>
+        <item>u+1f698</item>
+        <item>u+1f697</item>
+        <item>u+1f695</item>
+        <item>u+1f696</item>
+        <item>u+1f69b</item>
+        <item>u+1f69a</item>
+        <item>u+1f6a8</item>
+        <item>u+1f693</item>
+        <item>u+1f694</item>
+        <item>u+1f692</item>
+        <item>u+1f691</item>
+        <item>u+1f690</item>
+        <item>u+1f6b2</item>
+        <item>u+1f6a1</item>
+        <item>u+1f69f</item>
+        <item>u+1f6a0</item>
+        <item>u+1f69c</item>
+        <item>u+1f488</item>
+        <item>u+1f68f</item>
+        <item>u+1f3ab</item>
+        <item>u+1f6a6</item>
+        <item>u+1f6a5</item>
+        <item>u+26a0</item>
+        <item>u+1f6a7</item>
+        <item>u+1f530</item>
+        <item>u+26fd</item>
+        <item>u+1f3ee</item>
+        <item>u+1f3b0</item>
+        <item>u+2668</item>
+        <item>u+1f5ff</item>
+        <item>u+1f3aa</item>
+        <item>u+1f3ad</item>
+        <item>u+1f4cd</item>
+        <item>u+1f6a9</item>
+    </string-array>
+</resources>
