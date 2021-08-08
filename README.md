@@ -3,16 +3,17 @@ This project is Simple Demo for Image and Video Editing with swipeing overlay st
 
 Also this Demo uses photoeditor lib,ffmpeg and multipicker for image and video picker.
 
-![Alt text](/screenshot/Screenshot_1588476592.png "Picker")
-
 With Available tools:
 
-![Alt text](/screenshot/Screenshot_1588476592.png "Tools")
+<img src="/screenshot/Screenshot_1588476592.png" width="320" height="580">
+
 
 Swiping stickers:
 
-![Alt text](/screenshot/Screenshot_1588477254.png "Swipe stickers")
+<img src="/screenshot/Screenshot_1588477254.png" width="320" height="580">
+
 
 Stickers,Drawing and text:
 
-![Alt text](/screenshot/Screenshot_1588476722.png "stickers,text,drawing")
+<img src="/screenshot/Screenshot_1588476722.png" width="320" height="580">
+
